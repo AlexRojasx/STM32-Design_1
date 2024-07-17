@@ -20,12 +20,11 @@ USB Micro and SWDIO/SWCLK circuits:
 
 Final Microcontroller (and USB) Schematic:
 
-![image](https://github.com/user-attachments/assets/7672d950-b1ab-4d03-a347-8d0dc70d26dc)
+![image](https://github.com/user-attachments/assets/4f7a64b3-e1f5-4e96-9c5b-aa64fd3e29db)
 
 Final Power supply Schematic:
 
-![image](https://github.com/user-attachments/assets/08c98d64-3487-4fef-9ab5-a4ca9256efa2)
-
+![image](https://github.com/user-attachments/assets/16f954f1-5be2-4ce6-9033-75ad57f346de)
 
 
 Video i'm basing this project on:
