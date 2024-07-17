@@ -14,6 +14,20 @@ Crystal Occilator and capacitor circuit:
 
 ![image](https://github.com/user-attachments/assets/5feb4eef-28c2-4db9-91da-38555a407610)
 
+USB Micro and SWDIO/SWCLK circuits:
+
+![image](https://github.com/user-attachments/assets/149c4ce7-98bb-4ed6-9f72-2156b4a2e59e)
+
+Final Microcontroller (and USB) Schematic:
+
+![image](https://github.com/user-attachments/assets/7672d950-b1ab-4d03-a347-8d0dc70d26dc)
+
+Final Power supply Schematic:
+
+![image](https://github.com/user-attachments/assets/08c98d64-3487-4fef-9ab5-a4ca9256efa2)
+
+
+
 Video i'm basing this project on:
 
 https://www.youtube.com/watch?v=aVUqaB0IMh4
