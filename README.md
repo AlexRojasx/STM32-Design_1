@@ -26,9 +26,11 @@ Final Power supply Schematic:
 
 ![image](https://github.com/user-attachments/assets/16f954f1-5be2-4ce6-9033-75ad57f346de)
 
+Rough PCB Layout:
+![image](https://github.com/user-attachments/assets/adce45fc-2a3f-4d29-a405-fe53462fc709)
 
 Video i'm basing this project on:
 
 https://www.youtube.com/watch?v=aVUqaB0IMh4
 
-I am mainly using the schematic for the STM32 board, but designing the layout and component placement my self.
+I am mainly using the schematic for the STM32 board, but designing the layout and component placement myself using the tips from the video to decide component placement.
