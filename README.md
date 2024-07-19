@@ -1,6 +1,6 @@
 # STM32-Design_1
 STM 32 Project
-work in progress, will update soon with Schematic 🔥
+work in progress, will update soon with Descriptions 🔥
 
 Decoupling and power of the STM32F103C8T6:
 
@@ -28,6 +28,15 @@ Final Power supply Schematic:
 
 Rough PCB Layout:
 ![image](https://github.com/user-attachments/assets/adce45fc-2a3f-4d29-a405-fe53462fc709)
+
+Final PCB Trace Routing:
+
+![image](https://github.com/user-attachments/assets/a03c783e-feb1-4113-aec9-2c457bf69513)
+
+PCB 3d view: 
+
+![image](https://github.com/user-attachments/assets/85a95ae5-f6e3-42f4-88ad-e3b444746fdd)
+
 
 Video i'm basing this project on:
 
