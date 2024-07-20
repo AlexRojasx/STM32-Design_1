@@ -1,6 +1,4 @@
 # STM32-Design_1
-STM 32 Project
-work in progress, will update soon with layout, trace and what to improve Descriptions 🔥
 
 <h2>Project Description:</h2>
 
@@ -63,16 +61,23 @@ This 5v-3.3v power supply is similar to the 5v project I did with 22u decoupling
 Rough PCB Layout:
 ![image](https://github.com/user-attachments/assets/adce45fc-2a3f-4d29-a405-fe53462fc709)
 
+For the PCB layout, I started by making different groupings of parts, one group for the power supply, a group for the microcontroller and decoupling capacitors, a group for the pinouts like UART, I2C, SWD, and a group for the BOOT0 components. With each of the groupings made, I started organizing and placing the decoupling capacitors for the microcontroller, I placed them physically close to each of the VDD pins so the microcontroller gets as little noise as possible. I then moved on the placing the ferrite bead and the Crystal Oscillator next to the microcontroller. While placing and adjusting these components I tried to minimize the amount of crossed air wires to make my routing easier. After placing and adjusting the microcontroller components, I placed the USB and voltage regulator components, making sure that the noisy power supply was located farther from the sensitive components like the crystal oscillator or the 10uF capacitor for the microcontroller.
+
 Final PCB Trace Routing:
 
 ![image](https://github.com/user-attachments/assets/a03c783e-feb1-4113-aec9-2c457bf69513)
+
+Starting with the important signal wires first, I routed the crystal oscillator, the USB differential pairs, and the UART, SWD, I2C, and BOOT 0 pins with a 0.3 mm trace width. After routing the signal traces I routed any ground pads with a short 0.5mm wide trace connected to a via on the bottom ground plane. This allows for minimal ground traces on the top that might clutter up the board, and direct access to ground for all components, also using a ground plane on the bottom allows for less EMI between signal wires as the signal couples to the ground plane. After routing the ground, I moved on to routing power using a 0.5 mm wide trace and copper pours to connect the USB power to the power supply. The pours also included a ground pour near the power supply which I used stitching vias for effective grounding. While routing the power traces, I tried to minimize the amount of vias and traces on the bottom, especially under signal wires, to lessen any EMI interference. Also, wherever there were right angles I added a little bevel to allow for easier power transfer and 45-degree angles look nice. 
 
 PCB 3d view: 
 
 ![image](https://github.com/user-attachments/assets/85a95ae5-f6e3-42f4-88ad-e3b444746fdd)
 
+<h2>What Could be Improved:</h2>
 
-Video i'm basing this project on:
+Unfortunately, I am unable to physically build the PCB which would help with any debugging if there are any problems. Since the design and schematic are very similar to the video, I have a lot of the same parts and component placement as Phil's Lab. To Improve, I can create another microcontroller circuit with different pin configurations and components to get more practice creating microcontroller boards. 
+
+<h2>Video i'm basing this project on:</h2>
 
 https://www.youtube.com/watch?v=aVUqaB0IMh4
 
